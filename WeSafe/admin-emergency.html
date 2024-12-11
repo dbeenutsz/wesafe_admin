@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Emergency Request</title>
+    <link rel="stylesheet" href="admin-emergency.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Emergency Request Card -->
+        <div class="emergency-card">
+            <!-- Back Button -->
+            <button class="back-btn" onclick="window.location.href='panel-admin.html';">Back</button>
+            <!-- Header -->
+            <div class="header">
+              <h2 class="header-item" id="emergency">EMERGENCY</h2>
+              <h3 class="header-item" id="history">HISTORY</h3>
+          </div>
+
+            <!-- Emergency Information -->
+            <div class="info">
+                <div class="request-number">
+                    <span class="icon">📍</span>
+                    <span>Request number: <strong>656009</strong></span>
+                </div>
+                <div class="name">
+                    <span>Name: <strong>Eshi Phillips</strong></span>
+                </div>
+                <div class="address">
+                    <span>Address: <strong>Tres de Abril Punta Princesa, Cebu City</strong></span>
+                </div>
+            </div>
+
+            <!-- Scrollable Section -->
+            <div class="scroll-container">
+                <div class="scroll-content">
+                    <p>Additional emergency request details go here...</p>
+                    <!-- Add more content to make scrolling possible -->
+                </div>
+            </div>
+
+            <!-- Confirm Request Button -->
+            <div class="confirm-btn">
+                <button>Confirm Request</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
