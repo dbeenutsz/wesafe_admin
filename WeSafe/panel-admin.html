@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeSafe</title>
+  <link rel="stylesheet" href="style.css">
+  
+
+</head>
+
+
+<body>
+  <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+      <li><a href="#">WeSafe</a></li>
+      <li><a href="panel-admin.html"></i>Admin Panel</a></li>
+      <li><a href="profile-admin.html"></i>Profile</a></li>
+      <li><a href="settings-admin.html"></i>Settings</a></li>
+      <li><a href="#"></i>Logout</a></li>
+
+    </ul>
+    <ul>
+      <li><a href="#"><svg width="90" height="70" viewBox="0 0 62 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line y1="-0.5" x2="4.60712" y2="-0.5" transform="matrix(0.806933 -0.590642 0.519013 0.854766 43.3724 7.48315)" stroke="#FF9933"/>
+        <path d="M45.8508 13.6058L50.1881 13.6058" stroke="#FF9933"/>
+        <line y1="-0.5" x2="4.12341" y2="-0.5" transform="matrix(-0.751328 -0.659929 0.588893 -0.808211 32.2195 7.48315)" stroke="#FF9933"/>
+        <ellipse cx="37.4862" cy="13.2657" rx="7.12547" ry="6.46275" fill="#FF9933"/>
+        <g filter="url(#filter0_i_109_74)">
+        <path d="M18.5882 21.2465C18.5882 24.2522 14.4271 26.6888 9.29409 26.6888C4.16111 26.6888 0 24.2522 0 21.2465C0 18.2408 4.16111 15.8042 9.29409 15.8042C14.4271 15.8042 18.5882 18.2408 18.5882 21.2465Z" fill="#98DFEE"/>
+        </g>
+        <line x1="36.6764" y1="5.44238" x2="36.6764" y2="6.58035e-05" stroke="#FF9933"/>
+        <g filter="url(#filter1_i_109_74)">
+        <ellipse cx="18.898" cy="17.0072" rx="9.60389" ry="6.8029" fill="#98DFEE"/>
+        </g>
+        <line y1="-0.5" x2="2.57009" y2="-0.5" transform="matrix(0.964332 -0.264694 0.222017 0.975043 45.2312 10.2043)" stroke="#FF9933"/>
+        <line y1="-0.5" x2="2.99004" y2="-0.5" transform="matrix(0.414446 -0.910074 0.876597 0.481225 40.894 6.12256)" stroke="#FF9933"/>
+        <path d="M32.8391 3.40143L34.0783 6.12259" stroke="#FF9933"/>
+        <g filter="url(#filter2_i_109_74)">
+        <ellipse cx="29.4313" cy="15.3065" rx="8.36468" ry="5.78246" fill="#98DFEE"/>
+        </g>
+        <g filter="url(#filter3_b_109_74)">
+        <ellipse cx="14.5618" cy="5.10187" rx="14.5618" ry="5.10187" transform="matrix(0.999587 0.0287407 -0.023845 0.999716 16.9952 16.4112)" fill="#98DFEE"/>
+        </g>
+        <g filter="url(#filter4_i_109_74)">
+        <ellipse cx="8.99435" cy="4.41777" rx="8.99435" ry="4.41777" transform="matrix(0.993418 0.114548 -0.095219 0.995456 34.3 12.9255)" fill="#98DFEE"/>
+        </g>
+        <g filter="url(#filter5_b_109_74)">
+        <ellipse cx="14.5663" cy="5.10054" rx="14.5663" ry="5.10054" transform="matrix(0.997742 -0.0671595 0.0557515 0.998445 6.81566 18.2835)" fill="#98DFEE"/>
+        </g>
+        <path d="M20.6302 20.9534C20.6397 20.7167 20.5706 20.5339 20.4228 20.4051C20.277 20.2763 20.0564 20.2119 19.7609 20.2119C19.5601 20.2119 19.3859 20.2403 19.2382 20.2971C19.0904 20.3521 18.9721 20.4288 18.8831 20.5273C18.7959 20.6239 18.742 20.7356 18.7211 20.8625C18.7003 20.9667 18.7069 21.0576 18.741 21.1352C18.777 21.2129 18.8329 21.2801 18.9086 21.3369C18.9863 21.3918 19.0781 21.4401 19.1842 21.4818C19.2903 21.5216 19.4029 21.5557 19.5223 21.5841L20.0223 21.7091C20.2666 21.7659 20.4863 21.8417 20.6814 21.9364C20.8783 22.031 21.0431 22.1475 21.1757 22.2858C21.3101 22.424 21.4048 22.5869 21.4598 22.7744C21.5147 22.9619 21.5223 23.1769 21.4825 23.4193C21.4219 23.7754 21.2808 24.0841 21.0592 24.3454C20.8376 24.6049 20.5469 24.8066 20.187 24.9506C19.8272 25.0926 19.4105 25.1636 18.937 25.1636C18.4673 25.1636 18.0706 25.0917 17.7467 24.9477C17.4228 24.8038 17.187 24.5907 17.0393 24.3085C16.8935 24.0244 16.8499 23.6731 16.9086 23.2545H18.099C18.0781 23.4496 18.1065 23.6125 18.1842 23.7432C18.2637 23.872 18.3821 23.9695 18.5393 24.0358C18.6965 24.1002 18.8812 24.1324 19.0933 24.1324C19.3035 24.1324 19.4901 24.1021 19.6529 24.0415C19.8177 23.9809 19.9512 23.8966 20.0535 23.7886C20.1558 23.6807 20.2183 23.5566 20.241 23.4165C20.2637 23.2858 20.2439 23.1759 20.1814 23.0869C20.1189 22.9979 20.0185 22.9221 19.8802 22.8596C19.7439 22.7953 19.5743 22.7384 19.3717 22.6892L18.7637 22.5301C18.294 22.4108 17.9389 22.2242 17.6984 21.9704C17.4579 21.7167 17.3717 21.3748 17.4399 20.9449C17.5005 20.5926 17.6473 20.2848 17.8802 20.0216C18.1151 19.7564 18.4105 19.5509 18.7666 19.4051C19.1245 19.2574 19.5156 19.1835 19.9399 19.1835C20.3717 19.1835 20.7363 19.2583 21.0336 19.4079C21.331 19.5557 21.5478 19.7621 21.6842 20.0273C21.8206 20.2924 21.8622 20.6011 21.8092 20.9534H20.6302ZM22.9044 25.0812H21.5862L24.5606 19.2631H26.1458L27.1856 25.0812H25.8674L25.16 20.5926H25.1146L22.9044 25.0812ZM23.2055 22.7943H26.3191L26.1544 23.7545H23.0407L23.2055 22.7943ZM27.8859 25.0812L28.8518 19.2631H32.7041L32.5336 20.2773H29.9115L29.6842 21.6636H32.0507L31.8802 22.6778H29.5137L29.116 25.0812H27.8859ZM32.5656 25.0812L33.5315 19.2631H37.452L37.2815 20.2773H34.5912L34.3639 21.6636H36.8525L36.6821 22.6778H34.1934L33.9662 24.067H36.6679L36.4974 25.0812H32.5656Z" fill="white"/>
+        <path d="M13.6618 18.2487L12.9629 12.4305H14.3067L14.6021 16.4732H14.6504L16.3805 12.4305H17.5311L17.9231 16.4817H17.9743L19.605 12.4305H20.9487L18.318 18.2487H17.1192L16.6476 14.4447H16.6021L14.8606 18.2487H13.6618ZM20.6412 18.2487L21.6071 12.4305H25.5276L25.3571 13.4447H22.6668L22.4395 14.8311H24.9281L24.7577 15.8453H22.269L22.0418 17.2345H24.7435L24.573 18.2487H20.6412Z" fill="white"/>
+        <defs>
+        <filter id="filter0_i_109_74" x="0" y="15.8042" width="18.5882" height="14.8846" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+        <feOffset dy="4"/>
+        <feGaussianBlur stdDeviation="2"/>
+        <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+        <feBlend mode="normal" in2="shape" result="effect1_innerShadow_109_74"/>
+        </filter>
+        <filter id="filter1_i_109_74" x="9.29407" y="10.2043" width="19.2078" height="17.6058" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+        <feOffset dy="4"/>
+        <feGaussianBlur stdDeviation="2"/>
+        <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+        <feBlend mode="normal" in2="shape" result="effect1_innerShadow_109_74"/>
+        </filter>
+        <filter id="filter2_i_109_74" x="21.0666" y="9.52405" width="16.7294" height="15.5649" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+        <feOffset dy="4"/>
+        <feGaussianBlur stdDeviation="2"/>
+        <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+        <feBlend mode="normal" in2="shape" result="effect1_innerShadow_109_74"/>
+        </filter>
+        <filter id="filter3_b_109_74" x="12.873" y="12.8123" width="37.1125" height="18.2357" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+        <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_109_74"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_109_74" result="shape"/>
+        </filter>
+        <filter id="filter4_i_109_74" x="33.8693" y="13.8358" width="17.8905" height="13.0355" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+        <feOffset dy="4"/>
+        <feGaussianBlur stdDeviation="2"/>
+        <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+        <feBlend mode="normal" in2="shape" result="effect1_innerShadow_109_74"/>
+        </filter>
+        <filter id="filter5_b_109_74" x="3.09719" y="13.2112" width="37.0726" height="18.3734" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+        <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_109_74"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_109_74" result="shape"/>
+        </filter>
+        </defs>
+        </svg>
+        </a></li>
+        <li class="hideOnMobile"><a href="panel-admin.html"></i>Admin Panel</a></li>
+      <li class="hideOnMobile"><a href="profile-admin.html"></i>Profile</a></li>
+      <li class="hideOnMobile"><a href="settings-admin.html"></i>Settings</a></li>
+      <li class="hideOnMobile"><a href="#"></i>Logout</a></li>
+
+      <li class="menu-button" onclick=showSidebar()><a href="#"></a><svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40" fill="light gray"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+    </ul>
+  </nav>
+ 
+
+
+<div class="container">
+
+  <header class="header">
+      <div class="logo">
+        <!--add logo here-->
+        <h1>Hi Admin!</h1>
+          <p>Welcome back to your panel.</p>
+          <div class="weather-updates">
+            <p>Current Weather updates</p>
+          </div>
+      </div>
+  </header>
+</div>
+
+
+
+<div class="buttons-section">
+    <button class="btn emergency"><a href="emergency-admin.html"><svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M6.66667 0V1.625H8.33333V0H6.66667ZM4.06667 0.790833L2.88333 1.55458L4.65833 2.70833L5.83333 1.93917L4.06667 0.790833ZM10.9333 0.790833L9.16667 1.93917L10.3417 2.70833L12.1167 1.56L10.9333 0.790833ZM7.5 2.70833C7.05797 2.70833 6.63405 2.82247 6.32149 3.02563C6.00893 3.2288 5.83333 3.50435 5.83333 3.79167V4.33333H2.91667C2.36667 4.33333 1.9 4.56083 1.73333 4.875L0 8.125V12.4583C0 12.602 0.0877973 12.7398 0.244078 12.8413C0.400358 12.9429 0.61232 13 0.833333 13H1.66667C1.88768 13 2.09964 12.9429 2.25592 12.8413C2.4122 12.7398 2.5 12.602 2.5 12.4583V11.9167H12.5V12.4583C12.5 12.602 12.5878 12.7398 12.7441 12.8413C12.9004 12.9429 13.1123 13 13.3333 13H14.1667C14.3877 13 14.5996 12.9429 14.7559 12.8413C14.9122 12.7398 15 12.602 15 12.4583V8.125L13.2667 4.875C13.1 4.56083 12.6333 4.33333 12.0833 4.33333H9.16667V3.79167C9.16667 3.50435 8.99107 3.2288 8.67851 3.02563C8.36595 2.82247 7.94203 2.70833 7.5 2.70833ZM2.91667 5.14583H12.0833L13.3333 7.58333H1.66667L2.91667 5.14583ZM2.91667 8.66667C3.24819 8.66667 3.56613 8.75227 3.80055 8.90464C4.03497 9.05702 4.16667 9.26368 4.16667 9.47917C4.16667 9.69465 4.03497 9.90132 3.80055 10.0537C3.56613 10.2061 3.24819 10.2917 2.91667 10.2917C2.58515 10.2917 2.2672 10.2061 2.03278 10.0537C1.79836 9.90132 1.66667 9.69465 1.66667 9.47917C1.66667 9.26368 1.79836 9.05702 2.03278 8.90464C2.2672 8.75227 2.58515 8.66667 2.91667 8.66667ZM12.0833 8.66667C12.4149 8.66667 12.7328 8.75227 12.9672 8.90464C13.2016 9.05702 13.3333 9.26368 13.3333 9.47917C13.3333 9.69465 13.2016 9.90132 12.9672 10.0537C12.7328 10.2061 12.4149 10.2917 12.0833 10.2917C11.7518 10.2917 11.4339 10.2061 11.1995 10.0537C10.965 9.90132 10.8333 9.69465 10.8333 9.47917C10.8333 9.26368 10.965 9.05702 11.1995 8.90464C11.4339 8.75227 11.7518 8.66667 12.0833 8.66667Z" fill="black"/>
+      </svg>
+      </a>Emergency</button>
+    <button class="btn send-alert"><a href="SendAlert-Admin.html"><svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M3.32388 0C1.40247 0 0 2.32235 0 4.82753C0 10.4193 6.25639 14 6.25639 14C6.25639 14 12.5128 10.1887 12.5128 4.82753C12.5128 2.32318 11.1103 0 9.1889 0C7.85594 0 6.86709 1.04218 6.25639 2.52041C5.6457 1.04218 4.65684 0 3.32353 0H3.32388ZM3.82335 7.39488C3.82335 8.55071 4.91544 8.91965 5.71452 8.61247C5.33288 9.95112 5.68741 10.9941 6.00301 11.3976L6.5129 10.8376C6.38639 10.6762 6.09581 10.0084 6.33599 9.01682C6.75551 9.93794 8.68943 10.0541 8.68943 8.31682V3.70588C7.68772 4.71018 6.61752 5.10712 5.73676 5.43406C4.63077 5.84418 3.82335 6.14353 3.82335 7.39488Z" fill="black"/>
+      </svg>
+      </a>Send Alert</button>
+    <button class="btn shelter"><a href="#"><svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M3 13H13V2.78571H12V1.39286C12 0.623594 11.3284 0 10.5 0H5.5C4.67156 0 4 0.623594 4 1.39286V2.78571H3V13ZM6 1.85714H10V2.78571H6V1.85714ZM16 4.17857V11.6071C16 12.3764 15.3284 13 14.5 13H14V2.78571H14.5C15.3284 2.78571 16 3.40931 16 4.17857ZM2 13H1.5C0.671562 13 0 12.3764 0 11.6071V4.17857C0 3.40931 0.671562 2.78571 1.5 2.78571H2V13ZM11 6.96429V7.89286C11 8.14929 10.7762 8.35714 10.5 8.35714H9V9.75C9 10.0064 8.77616 10.2143 8.5 10.2143H7.5C7.22384 10.2143 7 10.0064 7 9.75V8.35714H5.5C5.22384 8.35714 5 8.14929 5 7.89286V6.96429C5 6.70785 5.22384 6.5 5.5 6.5H7V5.10714C7 4.85071 7.22384 4.64286 7.5 4.64286H8.5C8.77616 4.64286 9 4.85071 9 5.10714V6.5H10.5C10.7762 6.5 11 6.70785 11 6.96429Z" fill="black"/>
+      </svg>
+      </a>Shelter</button>
+</div>
+
+
+
+
+<div class="Maps">
+
+</div>
+
+
+<!--dili mugana kung sa javascript file nako ibutang-->
+<script>
+  function showSidebar(){
+  const sidebar = document.querySelector('.sidebar')
+  sidebar.style.display = 'flex'
+}
+function hideSidebar(){
+  const sidebar = document.querySelector('.sidebar')
+  sidebar.style.display = 'none'
+}
+</script>
+
+
+
+</body>
+
+</html>
